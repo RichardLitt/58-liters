@@ -1,9 +1,9 @@
 +++
 showonlyimage = true
 draft = false
-image = "img/000 (3).jpg"
+image = "img/field notes.jpg"
 date = "2016-11-05T18:25:22+05:30"
-title = "000 (3)"
+title = "field notes"
 weight = 0
 +++
 

@@ -5,8 +5,8 @@ do
   title=$(echo $filename | cut -d'.' -f1)
   cleanfile="content/portfolio/"${title//[,)(]/}".md"
   cleanfile="${cleanfile// /-}"
-  touch $cleanfile
-  echo "+++
+    touch $cleanfile
+    echo "+++
 showonlyimage = true
 draft = false
 image = \"img/"$filename"\"
@@ -16,5 +16,5 @@ weight = 0
 +++
 
 And I would walk 10,000 miles.
-" >> "$cleanfile"
+" > "$cleanfile"
 done
