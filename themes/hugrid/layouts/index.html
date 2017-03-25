@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+	{{ partial "head.html" . }}
+	{{ template "_internal/google_analytics.html" . }}
+	</head>
+	<body>
+		<div class="container">
+				{{ partial "header.html" . }}
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+					{{ range $.Site.Data.items }}
+					<li>
+						<a href="{{.url}}" data-largesrc="{{.image}}">
+							<img src="{{.thumb}}" alt="{{.alt}}" class="thumb"/>
+						</a>
+						<div class="og-expander" style="transition: height 350ms ease; height: 843px;">
+						  <div class="og-expander-inner"><span class="og-close"></span>
+						    <div class="og-fullimg">
+						      <div class="og-loading" style="display: none;"></div><img src="img/001b%20Hiking%20Boots.jpg" style="display: inline;"></div>
+						    <div class="og-details">
+						      <h3 id="{{.id}}-{{.title}}">{{.title}}</h3>
+						      <p id="{{.id}}-{{.description}}">{{.description}}</p>
+						    </div>
+						  </div>
+						</div>
+						<!-- <div class="og-details">
+							<h3 id="title"></h3>
+							<p></p>
+						</div>
+						<div class="og-fullimg">
+							<div class="og-loading"></div>
+						</div>
+						<div class="og-expander">
+							<div class="og-expander-inner">
+								<span class="og-close"></span>
+							</div>
+						</div> -->
+					</li>
+					{{ end }}
+				</ul>
+				{{ partial "footer.html" . }}
+			</div>
+		</div>
+		{{ partial "scripts.html" . }}
+	</body>
+</html>
