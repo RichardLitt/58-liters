@@ -25,12 +25,31 @@ Time caught up with me, and I prioritized other things. I brought the bag with m
 
 I'm [Richard Littauer](https://burntfen.com). Aspiring star man, writer, nomad, adventurer, and coder.
 
-## Money
+[Send me an email saying hi!](mailto:richard@burntfen.com)
+
+## Money?
 
 This site uses Amazon affiliate links for some items. This site took time and money, and I think that sharing how to buy something through an online market place is not the worst place to try and offset that cost.
+
+If you've got a better way to help with this, [send me an email](mailto:richard@burntfen.com)! I'm open to sponsorship, donations, and other mercantile ventures.
 
 ## Can I add the contents of my backpack, too?
 
 I'm glad you asked! Yes, you will be able to in the future. For updates, sign up for this email list.
 
-TODO Add email list
+<div id="mc_embed_signup">
+<form action="//burntfen.us9.list-manage.com/subscribe/post?u=54a70a2c82373a0980e031871&amp;id=79cfc67f81" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="mc-field-group">
+	<label for="mce-EMAIL" style="display:none;">Email Address</label>
+	<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Your Email">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_54a70a2c82373a0980e031871_79cfc67f81" tabindex="-1" value=""></div>
+    <div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-ghost">Subscribe</button></div>
+    </div>
+</form>
+</div>
