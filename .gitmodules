@@ -1,0 +1,3 @@
+[submodule "themes/hugo-creative-portfolio-theme"]
+	path = themes/hugo-creative-portfolio-theme
+	url = git@github.com:RichardLitt/hugo-creative-portfolio-theme.git
