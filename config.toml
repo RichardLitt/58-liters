@@ -40,6 +40,10 @@ googleAnalytics = "UA-4124866-40"
   name = "The Story"
   url = "about/"
 
+  [[params.navlinks]]
+  name = "Add Your Bag"
+  url = "add-your-bag/"
+
   [params.social]
   email         = "richard@burntfen.com"
   twitter       = "https://twitter.com/richlitt"
