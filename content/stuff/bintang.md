@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = true
-image = "img/bintang.jpg"
+image = "img/stuff/bintang.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "bintang"
 weight = 0

@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = true
-image = "img/sticky notes.jpg"
+image = "img/stuff/sticky notes.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "sticky notes"
 weight = 0

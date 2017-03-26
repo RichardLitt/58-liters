@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = true
-image = "img/first aid kit.jpg"
+image = "img/stuff/first aid kit.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "first aid kit"
 weight = 0

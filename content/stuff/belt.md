@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = true
-image = "img/belt.jpg"
+image = "img/stuff/belt.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "belt"
 weight = 0
