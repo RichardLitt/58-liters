@@ -7,5 +7,6 @@ title = "business cards"
 weight = 0
 +++
 
-TODO Fill me in.
+Normally, I take a picture of a business card, and then throw it away. Sometimes, I keep them around, in my wallet, to remind me of other people.
 
+TODO
