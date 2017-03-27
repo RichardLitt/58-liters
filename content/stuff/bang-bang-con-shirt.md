@@ -2,6 +2,7 @@
 showonlyimage = true
 draft = false
 image = "img/stuff/bang bang con shirt.jpg"
+buy = "http://bangbangcon.com/"
 date = "2016-11-05T18:25:22+05:30"
 title = "Bang Bang Con shirt"
 weight = 0
