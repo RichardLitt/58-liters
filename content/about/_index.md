@@ -3,6 +3,12 @@ date = "2016-11-05T21:05:33+05:30"
 title = "About"
 +++
 
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="../img/richlitt-2015-04/osprey.jpg" alt="Osprey Exos 58" class="knolling" />
+    </div>
+  </div>
+
 In March, 2015, I bought my [Osprey Exos 58](https://www.ospreypacks.com/ca/en/product/exos-58-EXOS58.html) pack in order to travel and live out of it for the unforeseeable future. I was leaving San Francisco, where I had lived for a year, in order to head to South-East Asia on a one-way flight to [Hacker Paradise](http://hackerparadise.org/). Nominally, I was taking a break from the States. In real terms, I was moving back to being nomadic, carrying the world on my back.
 
 I had given my last Osprey pack to a friend who had his stolen in South America while he was asleep in his hostel. And while I was walking in SF on my way to a library, my daypack I would have used was stolen by two kids with a gun, along with my laptop, phone, wallet, notebook, headphones, and the other accoutrement of a nomadic developer. I had one pack left; a 110L Kelty that weighed seven pounds, which my father had given me when I was 10, knowing that I could use it for years and that I would 'grow into it' (his words). I gave this to my flatmate for Burning Man, and after the dust of the playa was caked on it, I knew I would need something else.
@@ -13,7 +19,7 @@ I put everything that didn't fit in it into storage, or on the street. I was fre
 
 <div class="row">
   <div class="col-sm-12">
-    <img src="../img/knolling.jpg" alt="knolling" id="knolling" />
+    <img src="../img/richlitt-2015-04-knolling.jpg" alt="knolling" class="knolling" />
   </div>
 </div>
 
