@@ -8,6 +8,27 @@ This website is a place for showcasing what I've got in my bag.
 
 I'd like for it to be exportable to other people, too, but there's work to do on that front.
 
+### To Add Your Own Bag
+
+Open a Pull Request with the following:
+
+`$title` should be in the format `username-year-month`.
+
+- `$title` in `data/bags.json`
+- A knolling image in `static/img/$title-knolling.jpg`
+- A directory of images in `static/img/$title`
+- A bag file in `content/bags/$title.md`
+- A folder of text files in `content/$title`
+- An `index.md` file in `content/$title/index.md`
+
+Look at the `richlitt-2015-04` example for all of these.
+
+#### TODO Make this easier
+
+- What we should do is not use `data` at all, but grab from the `content/bags` folder.
+- The knolling image should be in `static/img/$title/`, and sorted out by the partials
+- Making two markdown stubs can probably be automated.
+
 ### Thanks
 
 The theme comes originally from [@kishaningithub](https://github.com/kishaningithub/hugo-creative-portfolio-theme), although I have edited and adapted it and will continue to do so.
