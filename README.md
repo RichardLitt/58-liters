@@ -23,6 +23,8 @@ Open a Pull Request with the following:
 
 Look at the `richlitt-2015-04` example for all of these.
 
+You can run `sh utils/create_dir.sh $slug` from the base directory to automatically make the default folders and files needed.
+
 #### TODO Make this easier
 
 - What we should do is not use `data` at all, but grab from the `content/bags` folder.
