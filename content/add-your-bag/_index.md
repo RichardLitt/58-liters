@@ -2,6 +2,7 @@
 date = "2016-11-05T21:05:33+05:30"
 title = "Add Your Bag"
 layout = "single"
+type = "index"
 +++
 
 Want to add the contents of your bag to this site?
