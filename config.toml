@@ -16,8 +16,7 @@ PluralizeListTitles = false
   description = "Describe your website"
   copyright = "&copy; 2017 Burnt Fen Creative LLC"
   sidebarAbout = [
-    "I've lived out of my Osprey 58 for years.",
-    "Here's what I keep in it."
+    "Nomads live out of their backpacks. Here's what's in ours."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
