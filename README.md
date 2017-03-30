@@ -12,6 +12,8 @@ I'd like for it to be exportable to other people, too, but there's work to do on
 
 This uses [`hugo`](https://gohugo.io/), version `v0.19`. Clone, and from the main dir, run `hugo`.
 
+To watch, run: `hugo serve -wv`.
+
 ### Images
 
 I have been manually editing and optimizing images in Photoshop. A gulp script would be necessary for faster implementations. We'll get to that eventually.
