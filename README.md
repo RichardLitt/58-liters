@@ -8,6 +8,18 @@ This website is a place for showcasing what I've got in my bag.
 
 I'd like for it to be exportable to other people, too, but there's work to do on that front.
 
+## Build
+
+This uses [`hugo`](https://gohugo.io/), version `v0.19`. Clone, and from the main dir, run `hugo`.
+
+### Images
+
+I have been manually editing and optimizing images in Photoshop. A gulp script would be necessary for faster implementations. We'll get to that eventually.
+
+## Contribute
+
+Please do! Drop me an email, open an issue, make a Pull Request.
+
 ### To Add Your Own Bag
 
 Open a Pull Request with the following:
@@ -31,15 +43,12 @@ You can run `sh utils/create_dir.sh $slug` from the base directory to automatica
 - The knolling image should be in `static/img/$title/`, and sorted out by the partials
 - Making two markdown stubs can probably be automated.
 
-### Thanks
+## Thanks
 
 The theme comes originally from [@kishaningithub](https://github.com/kishaningithub/hugo-creative-portfolio-theme), although I have edited and adapted it and will continue to do so.
 
 Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the awesome community around the project. And also thanks to [Bootstrapious](http://bootstrapious.com/) for creating the original theme.
 
-## Contribute
-
-Please do! Drop me an email, open an issue, make a Pull Request.
 
 ## License
 
