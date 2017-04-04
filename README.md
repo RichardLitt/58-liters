@@ -1,12 +1,10 @@
 # 58 Liters
 
-> An account of what I keep in my Osprey Exos 58
+> An account of what I keep in my Osprey Exos 58.
 
-## About
+This is the source for 58liters.com.
 
-This website is a place for showcasing what I've got in my bag.
-
-I'd like for it to be exportable to other people, too, but there's work to do on that front.
+This website is a place for showcasing what we've got in our bags: for nomads, travelers, hikers, and the rest of us who like carrying our homes with us.
 
 ## Build
 
@@ -24,6 +22,15 @@ Please do! Drop me an email, open an issue, make a Pull Request.
 
 ### To Add Your Own Bag
 
+Awesome! You want to add your own bag.
+That is the goal of this site, in the end, but right now it may take a bit of extra effort.
+
+Here is what is needed from you, ultimately: good, quality photos, and stories and descriptions.
+Take the photos on a uniform surface that you use for all of the content (unless it is something beautiful, like pine needles and rocks).
+I'll worry about optimizing the images. Write your content in Markdown.
+
+If you know how to code, here's how you add the content. (If you don't, that's OK; just send me a Dropbox folder or something with the images and the corresponding files).
+
 Open a Pull Request with the following:
 
 `$title` should be in the format `username-year-month`.
@@ -39,18 +46,13 @@ Look at the `richlitt-2015-04` example for all of these.
 
 You can run `sh utils/create_dir.sh $slug` from the base directory to automatically make the default folders and files needed.
 
-#### TODO Make this easier
-
-- What we should do is not use `data` at all, but grab from the `content/bags` folder.
-- The knolling image should be in `static/img/$title/`, and sorted out by the partials
-- Making two markdown stubs can probably be automated.
-
 ## Thanks
 
-The theme comes originally from [@kishaningithub](https://github.com/kishaningithub/hugo-creative-portfolio-theme), although I have edited and adapted it and will continue to do so.
+The theme comes originally from [@kishaningithub](https://github.com/kishaningithub/hugo-creative-portfolio-theme), although I have edited and adapted it and will continue to do so. Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the awesome community around the project. And also thanks to [Bootstrapious](http://bootstrapious.com/) for creating the original theme.
 
-Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the awesome community around the project. And also thanks to [Bootstrapious](http://bootstrapious.com/) for creating the original theme.
+## Maintainer
 
+[@RichardLitt](https://github.com/RichardLitt).
 
 ## License
 
