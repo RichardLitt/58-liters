@@ -27,15 +27,18 @@ That is the goal of this site, in the end, but right now it may take a bit of ex
 
 Here is what is needed from you, ultimately: good, quality photos, and stories and descriptions.
 
+#### Non-Code
+
 1. Take good photos from above, of each image. Take the photos on a uniform surface that you use for all of the content (unless it is something beautiful, like pine needles and rocks).
 2. Take a knolling shot - all of the stuff lined up well. Try to take it from above, or from somewhere where it looks nice.
 3. Name all of the photos something descriptive.
+4. If you're not going to go on and code, make a Google Doc with sections for each image. That's it! Send me the doc and the images somehow - Dropbox works.
 
-I'll worry about optimizing the images. Write your content in Markdown.
+I'll worry about optimizing the images. Write your content in Markdown, if you can.
 
-If you know how to code, here's how you add the content. (If you don't, that's OK; just send me a Dropbox folder or something with the images and the corresponding files).
+#### If you want to code.
 
-Open a Pull Request with the following:
+If you know how to code, here's how you add the content. This will also make markdown files for all of the content.
 
 1. Run `sh utils/create_dir.sh $title` from the base directory to automatically make the default folders and files needed.
 
@@ -50,9 +53,12 @@ Open a Pull Request with the following:
 
 Look at the `richlitt-2015-04` example for all of these.
 
-2. Edit `data/bags.json` to make sure the array makes sense. 
-
-
+2. Add all of your images into `statci/img/$title`. Make sure they are named sensibly.
+3. From project root, run: `sh utils/create_items.sh $title`.
+4. Edit `data/bags.json` to make sure the array makes sense.
+5. Edit `content/bags/*.md` file to make the Format work.
+6. Test by running `hugo serve -vw`. Go to `localhost:1313`.
+7. Make a pull request! \o/
 
 ## Thanks
 
