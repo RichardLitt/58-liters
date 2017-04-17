@@ -5,7 +5,7 @@
 # TODO Needs to actually add it into the array
 echo "\""$1"\"" >> "data/bags.json"
 
-mkdir "static/img/"$1
+mkdir -p "static/img/"$1
 touch "content/bags/"$1".md"
 echo "+++
 showonlyimage = true
@@ -16,8 +16,8 @@ title = \"TODO\" // Format: Richard - April 2015
 link = \""$1"\"
 +++
 
-Leave this empty." >> "content/bags/"$1".md"
-mkdir "content/"$1
+Leave this empty." > "content/bags/"$1".md"
+mkdir -p "content/"$1
 touch "content/"$1"/index.md"
 echo "+++
 date = \""$(date -u +"%Y-%m-%dT%H:%M:%SZ")"\"
@@ -26,4 +26,5 @@ type = \"list\"
 draft = true
 +++
 
-Leave this empty." >> "content/"$1"/index.md"
+Leave this empty." > "content/"$1"/index.md"
+cp "layouts/section/richlitt-2015-04.html" "layouts/section/"$1".html"
