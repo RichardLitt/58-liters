@@ -26,12 +26,18 @@ Awesome! You want to add your own bag.
 That is the goal of this site, in the end, but right now it may take a bit of extra effort.
 
 Here is what is needed from you, ultimately: good, quality photos, and stories and descriptions.
-Take the photos on a uniform surface that you use for all of the content (unless it is something beautiful, like pine needles and rocks).
+
+1. Take good photos from above, of each image. Take the photos on a uniform surface that you use for all of the content (unless it is something beautiful, like pine needles and rocks).
+2. Take a knolling shot - all of the stuff lined up well. Try to take it from above, or from somewhere where it looks nice.
+3. Name all of the photos something descriptive.
+
 I'll worry about optimizing the images. Write your content in Markdown.
 
 If you know how to code, here's how you add the content. (If you don't, that's OK; just send me a Dropbox folder or something with the images and the corresponding files).
 
 Open a Pull Request with the following:
+
+1. Run `sh utils/create_dir.sh $title` from the base directory to automatically make the default folders and files needed.
 
 `$title` should be in the format `username-year-month`.
 
@@ -44,7 +50,9 @@ Open a Pull Request with the following:
 
 Look at the `richlitt-2015-04` example for all of these.
 
-You can run `sh utils/create_dir.sh $slug` from the base directory to automatically make the default folders and files needed.
+2. Edit `data/bags.json` to make sure the array makes sense. 
+
+
 
 ## Thanks
 
