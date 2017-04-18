@@ -18,6 +18,7 @@ img.sidebar-image {
 }
 
 .box-masonry-hover-text-header, .box-masonry-desription {
+  pointer-events: none;
   cursor: pointer;
 }
 
