@@ -16,7 +16,7 @@ do
     touch $cleanfile
     echo "+++
 showonlyimage = true
-draft = false
+draft = true
 image = \""$filename"\"
 date = \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\"
 title = \""$title"\"
