@@ -1,6 +1,6 @@
 +++
 showonlyimage = true
-draft = true
+draft = false
 image = "ipod.jpg"
 date = "2017-04-17T20:06:15Z"
 title = "ipod"
